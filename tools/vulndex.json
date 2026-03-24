@@ -1,0 +1,29 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "VulnDex",
+    "publisher": "VulnDex",
+    "website_url": "https://VulnDex.at",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING",
+      "SECURITY_VULNERABILITIES"
+    ],
+    "supportedLanguages": [
+      "JAVA",
+      "NODE.JS",
+      "PYTHON",
+      "PHP"
+    ],
+    "description": "VulnDex turns CycloneDX SBOMs into operational vulnerability management. It continuously maps components to new CVEs, adds context, and assigns findings to responsible teams to improve prioritization and reduce manual effort."
+  }
+}
